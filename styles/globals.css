@@ -8,8 +8,14 @@
   box-sizing: border-box;
 }
 
+html, 
+body {
+  scrollbar-gutter: stable;
+}
+
 body {
   margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -21,20 +27,43 @@ h6,
 p,
 ul,
 ol,
-li {
+li,
+figure,
+figcaption {
   margin: 0;
   padding: 0;
+  font: inherit;
+  font-size: inherit;
 }
 
 a {
   color: inherit;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+}
+
+dialog {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font: inherit;
+  font-family: inherit;
+}
+
 button,
 input {
+  appearance: none;
+  background-color: transparent;
+  border: none;
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
 }
 
 ul,

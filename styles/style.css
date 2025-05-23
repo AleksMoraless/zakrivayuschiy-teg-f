@@ -86,6 +86,7 @@
   position: fixed;
   z-index: 3;
   display: block;
+  inline-size: 353px;
   margin: auto;
   padding: 30px;
   opacity: 1;
@@ -115,12 +116,10 @@
   gap: 20px;
   line-height: 150%;
   text-transform: uppercase;
-  inline-size: 353px;
 }
 
 .modal__content svg {
-  width: 39px;
-  height: 39px;
+  inline-size: 59px;
 }
 
 .modal-button {

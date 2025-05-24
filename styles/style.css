@@ -204,7 +204,7 @@
   --font-size: 14px;
   position: absolute;
   top: clamp(1.25rem, 1.14rem + 0.4695vw, 1.5625rem);
-  right: clamp(0.625rem, 0.2949rem + 1.4085vw, 1.5625rem);;
+  right: clamp(0.625rem, 0.2949rem + 1.4085vw, 1.5625rem);
   font-family: var(--accent-font), fantasy;
   font-size: var(--font-size, 14px);
   color: rgba(0, 0, 0, 0.5);
